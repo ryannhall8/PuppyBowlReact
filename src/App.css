@@ -1,0 +1,49 @@
+img {
+  width: 280px;
+  height: 350px;
+}
+
+body{
+  background-color: beige;
+  font-family: verdana;
+}
+
+h1 {
+  text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue;
+  color: orange;
+  font-family: cursive;
+}
+
+h2{
+  font-family: monospace;
+}
+
+h3{
+  font-size: small;
+  font-family: monospace;
+}
+
+nav {
+  background-color: lightblue;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: blue;
+}
+
+#search {
+  width: 50%;
+  margin: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin: 0.5rem;
+}
